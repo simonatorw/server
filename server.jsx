@@ -6,7 +6,7 @@ const path = require('path');
 
 const host = '127.0.0.1';
 const port = 8124;
-
+//test
 function allowCrossDomain(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
